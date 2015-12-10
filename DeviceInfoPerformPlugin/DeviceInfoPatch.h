@@ -10,7 +10,10 @@
 
 @interface DeviceInfoPatch : PMRPatch
 
-@property (nonatomic, readonly) PMRPrimitiveInputPort *onOffInput;
-@property (nonatomic, readonly) PMRPrimitiveOutputPort *colorOutput;
+@property (nonatomic, readonly) PMRPrimitiveOutputPort *name;
+@property (nonatomic, readonly) PMRPrimitiveOutputPort *systemName;
+@property (nonatomic, readonly) PMRPrimitiveOutputPort *systemVersion;
+@property (nonatomic, readonly) PMRPrimitiveOutputPort *model;
+@property (nonatomic, readonly) PMRPrimitiveOutputPort *batteryLevel;
 
 @end

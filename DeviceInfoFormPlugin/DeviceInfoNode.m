@@ -11,7 +11,7 @@
 @implementation DeviceInfoNode
 
 + (NSString *)defaultName {
-    return @"DeviceInfo";
+    return @"Device Info";
 }
 
 + (NSString *)processClassName {
@@ -21,10 +21,13 @@
 - (instancetype)init {
     if ((self = [super init]) != nil) {
         // Inputs
-        [self addPort:[[FMRPrimitiveInputPort alloc] initWithName:@"On / Off" uniqueKey:@"Form.onOffInput" defaultValue:[PMRPrimitive primitiveWithBooleanValue:NO]] portGroup:nil];
         
         // Outputs
-        [self addPort:[[FMRPrimitiveOutputPort alloc] initWithName:@"Color" uniqueKey:@"Form.colorOutput"] portGroup:nil];
+        [self addPort:[[FMRPrimitiveOutputPort alloc] initWithName:@"Name" uniqueKey:@"Form.name"] portGroup:nil];
+        [self addPort:[[FMRPrimitiveOutputPort alloc] initWithName:@"System Name" uniqueKey:@"Form.systemName"] portGroup:nil];
+        [self addPort:[[FMRPrimitiveOutputPort alloc] initWithName:@"System Version" uniqueKey:@"Form.systemVersion"] portGroup:nil];
+        [self addPort:[[FMRPrimitiveOutputPort alloc] initWithName:@"Model" uniqueKey:@"Form.model"] portGroup:nil];
+        [self addPort:[[FMRPrimitiveOutputPort alloc] initWithName:@"Battery Level" uniqueKey:@"Form.batteryLevel"] portGroup:nil];
     }
     return self;
 }

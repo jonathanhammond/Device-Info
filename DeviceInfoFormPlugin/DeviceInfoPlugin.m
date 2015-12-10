@@ -16,7 +16,7 @@
 }
 
 + (NSString *)description {
-    return @"Created by Jon Hammond on 10/12/2015";
+    return @"This patch retrieves the Device's name, system name, system version, model and Battery status. Created by Jon Hammond justaddmusicmedia.com";
 }
 
 + (NSArray *)nodeClasses {

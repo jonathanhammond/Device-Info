@@ -59,6 +59,10 @@
 		79E311561C1A0A800023A890 /* Performer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E311551C1A0A800023A890 /* Performer.framework */; };
 		79E311581C1A0A800023A890 /* RelativeInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E311571C1A0A800023A890 /* RelativeInterface.framework */; };
 		79E3115B1C1A0A800023A890 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79E311591C1A0A800023A890 /* LaunchScreen.xib */; };
+		79E3116B1C1A0B3A0023A890 /* DeviceInfoPerformPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E311081C1A0A7E0023A890 /* DeviceInfoPerformPlugin.framework */; };
+		79E3116C1C1A0B440023A890 /* Performer.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 79E311551C1A0A800023A890 /* Performer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		79E3116D1C1A0B440023A890 /* RelativeInterface.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 79E311571C1A0A800023A890 /* RelativeInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		79E3116E1C1A0B440023A890 /* DeviceInfoPerformPlugin.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 79E311081C1A0A7E0023A890 /* DeviceInfoPerformPlugin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -68,6 +72,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				79E3116C1C1A0B440023A890 /* Performer.framework in CopyFiles */,
+				79E3116D1C1A0B440023A890 /* RelativeInterface.framework in CopyFiles */,
+				79E3116E1C1A0B440023A890 /* DeviceInfoPerformPlugin.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79E3116B1C1A0B3A0023A890 /* DeviceInfoPerformPlugin.framework in Frameworks */,
 				79E311581C1A0A800023A890 /* RelativeInterface.framework in Frameworks */,
 				79E311561C1A0A800023A890 /* Performer.framework in Frameworks */,
 			);
