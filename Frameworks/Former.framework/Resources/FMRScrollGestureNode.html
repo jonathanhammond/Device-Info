@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="LibraryStyle.css">
+    </head>
+    <body>
+        
+        <div class="patchTitle">Scroll Gesture</div>
+        
+        <p>The Scroll Gesture patch recognizes a scroll gesture and simulates inertial scrolling on a view. Upon recognizing that a scroll gesture has occurred, it will cancel all other interactions on the view and its subview (e.g. Recognizing when the user is trying to scroll a tappable button.)</p>
+
+        <p>The Scroll Gesture can be used for scrolling content that will not fit entirely on the screen or to let users drag the area of content that they want to display. The patch behaves like a Pan Interaction with bounds and inertial scroll upon release. Users can scroll with drag or flick gestures.</p>
+        
+        <hr>
+        
+        <label class="groupTitle">Inputs</label>
+        
+        <ul>
+            <li><div class="portTitle">Content Size</div>The size of the scroll gesture content. The default value is -1 which grabs the content size of the connected view.</li>
+            <li><div class="portTitle">Bounds Size</div>The width and height that the content can scroll. The default value is -1 which grabs the bounds size from the parent view.</li>
+            <li><div class="portTitle">Paging</div>A boolean indicating whether the scroll view should page in the X/Y direction. When this is enabled, the scroll gesture will snap to page boundaries that are the size of the bounds size.</li>
+            <li><div class="portTitle">Reset</div>Resets the gesture.</li>
+            <li><div class="portTitle">Offset</div>The number of points used to offset the X/Y position output.</li>
+        </ul>
+        
+        <label class="groupTitle">Outputs</label>
+        
+        <ul>
+            <li><div class="portTitle">Gesture</div>The gesture connection port used to link the gesture to a view.</li>
+            <li><div class="portTitle">Position</div>The total amount of translation that has occurred during the scroll.</li>
+            <li><div class="portTitle">Dragging</div>A boolean value that represents whether the user has begun dragging the content.</li>
+            <li><div class="portTitle">Decelerating</div>A boolean value that represents whether the patch is currently decelerating.</li>
+            <li><div class="portTitle">Page</div>An index value that represents what page the scroll gesture is currently positioned at. Pages start from 0.</li>
+        </ul>
+        
+    </body>
+</html>

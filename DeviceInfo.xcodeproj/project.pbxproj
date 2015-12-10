@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		79E310EC1C1A0A7C0023A890 /* DeviceInfo */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 79E3115F1C1A0A800023A890 /* Build configuration list for PBXAggregateTarget "DeviceInfo" */;
+			buildPhases = (
+				79E310EB1C1A0A7C0023A890 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = DeviceInfo;
+			productName = DeviceInfo;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		79E310F61C1A0A7C0023A890 /* DeviceInfoFormPlugin-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = 79E310F51C1A0A7C0023A890 /* DeviceInfoFormPlugin-Prefix.pch */; };
+		79E310F91C1A0A7E0023A890 /* Former.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E310F81C1A0A7E0023A890 /* Former.framework */; };
+		79E310FB1C1A0A7E0023A890 /* RelativeInterfaceMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E310FA1C1A0A7E0023A890 /* RelativeInterfaceMac.framework */; };
+		79E310FE1C1A0A7E0023A890 /* DeviceInfoPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E310FD1C1A0A7E0023A890 /* DeviceInfoPlugin.m */; };
+		79E311011C1A0A7E0023A890 /* DeviceInfoNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E311001C1A0A7E0023A890 /* DeviceInfoNode.m */; };
+		79E3110C1C1A0A7E0023A890 /* DeviceInfoPerformPlugin-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 79E3110B1C1A0A7E0023A890 /* DeviceInfoPerformPlugin-Prefix.pch */; };
+		79E3110F1C1A0A7F0023A890 /* Performer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E3110E1C1A0A7F0023A890 /* Performer.framework */; };
+		79E311111C1A0A7F0023A890 /* RelativeInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E311101C1A0A7F0023A890 /* RelativeInterface.framework */; };
+		79E311131C1A0A7F0023A890 /* DeviceInfoPatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E311121C1A0A7F0023A890 /* DeviceInfoPatch.h */; };
+		79E311151C1A0A7F0023A890 /* DeviceInfoPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E311141C1A0A7F0023A890 /* DeviceInfoPatch.m */; };
+		79E311201C1A0A7F0023A890 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E3111F1C1A0A7F0023A890 /* main.m */; };
+		79E311231C1A0A7F0023A890 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E311221C1A0A7F0023A890 /* AppDelegate.m */; };
+		79E311261C1A0A7F0023A890 /* ConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E311251C1A0A7F0023A890 /* ConnectViewController.m */; };
+		79E311281C1A0A7F0023A890 /* DeviceInfoViewer-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = 79E311271C1A0A7F0023A890 /* DeviceInfoViewer-Prefix.pch */; };
+		79E3112A1C1A0A7F0023A890 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E311291C1A0A7F0023A890 /* Images.xcassets */; };
+		79E3112C1C1A0A7F0023A890 /* Connect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79E3112B1C1A0A7F0023A890 /* Connect@2x.png */; };
+		79E3112F1C1A0A7F0023A890 /* MaterialIcons-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79E3112E1C1A0A7F0023A890 /* MaterialIcons-Regular.ttf */; };
+		79E311311C1A0A7F0023A890 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79E311301C1A0A7F0023A890 /* Roboto-Black.ttf */; };
+		79E311331C1A0A7F0023A890 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79E311321C1A0A7F0023A890 /* Roboto-BlackItalic.ttf */; };
+		79E311351C1A0A7F0023A890 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79E311341C1A0A7F0023A890 /* Roboto-Bold.ttf */; };
+		79E311371C1A0A7F0023A890 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79E311361C1A0A7F0023A890 /* Roboto-BoldItalic.ttf */; };
+		79E311391C1A0A7F0023A890 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79E311381C1A0A7F0023A890 /* Roboto-Italic.ttf */; };
+		79E3113B1C1A0A7F0023A890 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79E3113A1C1A0A7F0023A890 /* Roboto-Light.ttf */; };
+		79E3113D1C1A0A800023A890 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79E3113C1C1A0A7F0023A890 /* Roboto-LightItalic.ttf */; };
+		79E3113F1C1A0A800023A890 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79E3113E1C1A0A800023A890 /* Roboto-Medium.ttf */; };
+		79E311411C1A0A800023A890 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79E311401C1A0A800023A890 /* Roboto-MediumItalic.ttf */; };
+		79E311431C1A0A800023A890 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79E311421C1A0A800023A890 /* Roboto-Regular.ttf */; };
+		79E311451C1A0A800023A890 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79E311441C1A0A800023A890 /* Roboto-Thin.ttf */; };
+		79E311471C1A0A800023A890 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79E311461C1A0A800023A890 /* Roboto-ThinItalic.ttf */; };
+		79E311491C1A0A800023A890 /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79E311481C1A0A800023A890 /* RobotoCondensed-Bold.ttf */; };
+		79E3114B1C1A0A800023A890 /* RobotoCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79E3114A1C1A0A800023A890 /* RobotoCondensed-BoldItalic.ttf */; };
+		79E3114D1C1A0A800023A890 /* RobotoCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79E3114C1C1A0A800023A890 /* RobotoCondensed-Italic.ttf */; };
+		79E3114F1C1A0A800023A890 /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79E3114E1C1A0A800023A890 /* RobotoCondensed-Light.ttf */; };
+		79E311511C1A0A800023A890 /* RobotoCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79E311501C1A0A800023A890 /* RobotoCondensed-LightItalic.ttf */; };
+		79E311531C1A0A800023A890 /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79E311521C1A0A800023A890 /* RobotoCondensed-Regular.ttf */; };
+		79E311561C1A0A800023A890 /* Performer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E311551C1A0A800023A890 /* Performer.framework */; };
+		79E311581C1A0A800023A890 /* RelativeInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E311571C1A0A800023A890 /* RelativeInterface.framework */; };
+		79E3115B1C1A0A800023A890 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79E311591C1A0A800023A890 /* LaunchScreen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		79E3111A1C1A0A7F0023A890 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		79E310F11C1A0A7C0023A890 /* DeviceInfoFormPlugin.formplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeviceInfoFormPlugin.formplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E310F51C1A0A7C0023A890 /* DeviceInfoFormPlugin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeviceInfoFormPlugin-Prefix.pch"; sourceTree = "<group>"; };
+		79E310F81C1A0A7E0023A890 /* Former.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Former.framework; path = ../Frameworks/Former.framework; sourceTree = "<group>"; };
+		79E310FA1C1A0A7E0023A890 /* RelativeInterfaceMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RelativeInterfaceMac.framework; path = ../Frameworks/RelativeInterfaceMac.framework; sourceTree = "<group>"; };
+		79E310FC1C1A0A7E0023A890 /* DeviceInfoPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceInfoPlugin.h; sourceTree = "<group>"; };
+		79E310FD1C1A0A7E0023A890 /* DeviceInfoPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceInfoPlugin.m; sourceTree = "<group>"; };
+		79E310FF1C1A0A7E0023A890 /* DeviceInfoNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceInfoNode.h; sourceTree = "<group>"; };
+		79E311001C1A0A7E0023A890 /* DeviceInfoNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceInfoNode.m; sourceTree = "<group>"; };
+		79E311021C1A0A7E0023A890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E311081C1A0A7E0023A890 /* DeviceInfoPerformPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DeviceInfoPerformPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E3110B1C1A0A7E0023A890 /* DeviceInfoPerformPlugin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeviceInfoPerformPlugin-Prefix.pch"; sourceTree = "<group>"; };
+		79E3110E1C1A0A7F0023A890 /* Performer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Performer.framework; path = ../Frameworks/Performer.framework; sourceTree = "<group>"; };
+		79E311101C1A0A7F0023A890 /* RelativeInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RelativeInterface.framework; path = ../Frameworks/RelativeInterface.framework; sourceTree = "<group>"; };
+		79E311121C1A0A7F0023A890 /* DeviceInfoPatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceInfoPatch.h; sourceTree = "<group>"; };
+		79E311141C1A0A7F0023A890 /* DeviceInfoPatch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceInfoPatch.m; sourceTree = "<group>"; };
+		79E311161C1A0A7F0023A890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E3111C1C1A0A7F0023A890 /* DeviceInfoViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeviceInfoViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E3111F1C1A0A7F0023A890 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79E311211C1A0A7F0023A890 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79E311221C1A0A7F0023A890 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79E311241C1A0A7F0023A890 /* ConnectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectViewController.h; sourceTree = "<group>"; };
+		79E311251C1A0A7F0023A890 /* ConnectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectViewController.m; sourceTree = "<group>"; };
+		79E311271C1A0A7F0023A890 /* DeviceInfoViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeviceInfoViewer-Prefix.pch"; sourceTree = "<group>"; };
+		79E311291C1A0A7F0023A890 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		79E3112B1C1A0A7F0023A890 /* Connect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Connect@2x.png"; sourceTree = "<group>"; };
+		79E3112E1C1A0A7F0023A890 /* MaterialIcons-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaterialIcons-Regular.ttf"; sourceTree = "<group>"; };
+		79E311301C1A0A7F0023A890 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		79E311321C1A0A7F0023A890 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		79E311341C1A0A7F0023A890 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		79E311361C1A0A7F0023A890 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		79E311381C1A0A7F0023A890 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		79E3113A1C1A0A7F0023A890 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		79E3113C1C1A0A7F0023A890 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		79E3113E1C1A0A800023A890 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		79E311401C1A0A800023A890 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		79E311421C1A0A800023A890 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		79E311441C1A0A800023A890 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		79E311461C1A0A800023A890 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		79E311481C1A0A800023A890 /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		79E3114A1C1A0A800023A890 /* RobotoCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
+		79E3114C1C1A0A800023A890 /* RobotoCondensed-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Italic.ttf"; sourceTree = "<group>"; };
+		79E3114E1C1A0A800023A890 /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Light.ttf"; sourceTree = "<group>"; };
+		79E311501C1A0A800023A890 /* RobotoCondensed-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
+		79E311521C1A0A800023A890 /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		79E311551C1A0A800023A890 /* Performer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Performer.framework; path = ../Frameworks/Performer.framework; sourceTree = "<group>"; };
+		79E311571C1A0A800023A890 /* RelativeInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RelativeInterface.framework; path = ../Frameworks/RelativeInterface.framework; sourceTree = "<group>"; };
+		79E3115A1C1A0A800023A890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		79E3115C1C1A0A800023A890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79E310EE1C1A0A7C0023A890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E310FB1C1A0A7E0023A890 /* RelativeInterfaceMac.framework in Frameworks */,
+				79E310F91C1A0A7E0023A890 /* Former.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E311041C1A0A7E0023A890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E311111C1A0A7F0023A890 /* RelativeInterface.framework in Frameworks */,
+				79E3110F1C1A0A7F0023A890 /* Performer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E311181C1A0A7F0023A890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E311581C1A0A800023A890 /* RelativeInterface.framework in Frameworks */,
+				79E311561C1A0A800023A890 /* Performer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79E310E61C1A0A7C0023A890 = {
+			isa = PBXGroup;
+			children = (
+				79E310F31C1A0A7C0023A890 /* DeviceInfoFormPlugin */,
+				79E311091C1A0A7E0023A890 /* DeviceInfoPerformPlugin */,
+				79E3111D1C1A0A7F0023A890 /* DeviceInfoViewer */,
+				79E310F21C1A0A7C0023A890 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79E310F21C1A0A7C0023A890 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79E310F11C1A0A7C0023A890 /* DeviceInfoFormPlugin.formplugin */,
+				79E311081C1A0A7E0023A890 /* DeviceInfoPerformPlugin.framework */,
+				79E3111C1C1A0A7F0023A890 /* DeviceInfoViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79E310F31C1A0A7C0023A890 /* DeviceInfoFormPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				79E310FC1C1A0A7E0023A890 /* DeviceInfoPlugin.h */,
+				79E310FD1C1A0A7E0023A890 /* DeviceInfoPlugin.m */,
+				79E310FF1C1A0A7E0023A890 /* DeviceInfoNode.h */,
+				79E311001C1A0A7E0023A890 /* DeviceInfoNode.m */,
+				79E311021C1A0A7E0023A890 /* Info.plist */,
+				79E310F71C1A0A7E0023A890 /* Frameworks */,
+				79E310F41C1A0A7C0023A890 /* Supporting Files */,
+			);
+			path = DeviceInfoFormPlugin;
+			sourceTree = "<group>";
+		};
+		79E310F41C1A0A7C0023A890 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79E310F51C1A0A7C0023A890 /* DeviceInfoFormPlugin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79E310F71C1A0A7E0023A890 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79E310F81C1A0A7E0023A890 /* Former.framework */,
+				79E310FA1C1A0A7E0023A890 /* RelativeInterfaceMac.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79E311091C1A0A7E0023A890 /* DeviceInfoPerformPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				79E311121C1A0A7F0023A890 /* DeviceInfoPatch.h */,
+				79E311141C1A0A7F0023A890 /* DeviceInfoPatch.m */,
+				79E311161C1A0A7F0023A890 /* Info.plist */,
+				79E3110D1C1A0A7F0023A890 /* Frameworks */,
+				79E3110A1C1A0A7E0023A890 /* Supporting Files */,
+			);
+			path = DeviceInfoPerformPlugin;
+			sourceTree = "<group>";
+		};
+		79E3110A1C1A0A7E0023A890 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79E3110B1C1A0A7E0023A890 /* DeviceInfoPerformPlugin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79E3110D1C1A0A7F0023A890 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79E3110E1C1A0A7F0023A890 /* Performer.framework */,
+				79E311101C1A0A7F0023A890 /* RelativeInterface.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79E3111D1C1A0A7F0023A890 /* DeviceInfoViewer */ = {
+			isa = PBXGroup;
+			children = (
+				79E311211C1A0A7F0023A890 /* AppDelegate.h */,
+				79E311221C1A0A7F0023A890 /* AppDelegate.m */,
+				79E311241C1A0A7F0023A890 /* ConnectViewController.h */,
+				79E311251C1A0A7F0023A890 /* ConnectViewController.m */,
+				79E311291C1A0A7F0023A890 /* Images.xcassets */,
+				79E3112B1C1A0A7F0023A890 /* Connect@2x.png */,
+				79E311591C1A0A800023A890 /* LaunchScreen.xib */,
+				79E3115C1C1A0A800023A890 /* Info.plist */,
+				79E3112D1C1A0A7F0023A890 /* Fonts */,
+				79E311541C1A0A800023A890 /* Frameworks */,
+				79E3111E1C1A0A7F0023A890 /* Supporting Files */,
+			);
+			path = DeviceInfoViewer;
+			sourceTree = "<group>";
+		};
+		79E3111E1C1A0A7F0023A890 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79E3111F1C1A0A7F0023A890 /* main.m */,
+				79E311271C1A0A7F0023A890 /* DeviceInfoViewer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79E3112D1C1A0A7F0023A890 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				79E3112E1C1A0A7F0023A890 /* MaterialIcons-Regular.ttf */,
+				79E311301C1A0A7F0023A890 /* Roboto-Black.ttf */,
+				79E311321C1A0A7F0023A890 /* Roboto-BlackItalic.ttf */,
+				79E311341C1A0A7F0023A890 /* Roboto-Bold.ttf */,
+				79E311361C1A0A7F0023A890 /* Roboto-BoldItalic.ttf */,
+				79E311381C1A0A7F0023A890 /* Roboto-Italic.ttf */,
+				79E3113A1C1A0A7F0023A890 /* Roboto-Light.ttf */,
+				79E3113C1C1A0A7F0023A890 /* Roboto-LightItalic.ttf */,
+				79E3113E1C1A0A800023A890 /* Roboto-Medium.ttf */,
+				79E311401C1A0A800023A890 /* Roboto-MediumItalic.ttf */,
+				79E311421C1A0A800023A890 /* Roboto-Regular.ttf */,
+				79E311441C1A0A800023A890 /* Roboto-Thin.ttf */,
+				79E311461C1A0A800023A890 /* Roboto-ThinItalic.ttf */,
+				79E311481C1A0A800023A890 /* RobotoCondensed-Bold.ttf */,
+				79E3114A1C1A0A800023A890 /* RobotoCondensed-BoldItalic.ttf */,
+				79E3114C1C1A0A800023A890 /* RobotoCondensed-Italic.ttf */,
+				79E3114E1C1A0A800023A890 /* RobotoCondensed-Light.ttf */,
+				79E311501C1A0A800023A890 /* RobotoCondensed-LightItalic.ttf */,
+				79E311521C1A0A800023A890 /* RobotoCondensed-Regular.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		79E311541C1A0A800023A890 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79E311551C1A0A800023A890 /* Performer.framework */,
+				79E311571C1A0A800023A890 /* RelativeInterface.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		79E311051C1A0A7E0023A890 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E3110C1C1A0A7E0023A890 /* DeviceInfoPerformPlugin-Prefix.pch in Headers */,
+				79E311131C1A0A7F0023A890 /* DeviceInfoPatch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		79E310F01C1A0A7C0023A890 /* DeviceInfoFormPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E311621C1A0A800023A890 /* Build configuration list for PBXNativeTarget "DeviceInfoFormPlugin" */;
+			buildPhases = (
+				79E310ED1C1A0A7C0023A890 /* Sources */,
+				79E310EE1C1A0A7C0023A890 /* Frameworks */,
+				79E310EF1C1A0A7C0023A890 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeviceInfoFormPlugin;
+			productName = DeviceInfoFormPlugin;
+			productReference = 79E310F11C1A0A7C0023A890 /* DeviceInfoFormPlugin.formplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+		79E311071C1A0A7E0023A890 /* DeviceInfoPerformPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E311651C1A0A800023A890 /* Build configuration list for PBXNativeTarget "DeviceInfoPerformPlugin" */;
+			buildPhases = (
+				79E311031C1A0A7E0023A890 /* Sources */,
+				79E311041C1A0A7E0023A890 /* Frameworks */,
+				79E311051C1A0A7E0023A890 /* Headers */,
+				79E311061C1A0A7E0023A890 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeviceInfoPerformPlugin;
+			productName = DeviceInfoPerformPlugin;
+			productReference = 79E311081C1A0A7E0023A890 /* DeviceInfoPerformPlugin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		79E3111B1C1A0A7F0023A890 /* DeviceInfoViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E311681C1A0A800023A890 /* Build configuration list for PBXNativeTarget "DeviceInfoViewer" */;
+			buildPhases = (
+				79E311171C1A0A7F0023A890 /* Sources */,
+				79E311181C1A0A7F0023A890 /* Frameworks */,
+				79E311191C1A0A7F0023A890 /* Resources */,
+				79E3111A1C1A0A7F0023A890 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeviceInfoViewer;
+			productName = DeviceInfoViewer;
+			productReference = 79E3111C1C1A0A7F0023A890 /* DeviceInfoViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79E310E71C1A0A7C0023A890 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jon Hammond";
+				TargetAttributes = {
+					79E310EC1C1A0A7C0023A890 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					79E310F01C1A0A7C0023A890 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					79E311071C1A0A7E0023A890 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					79E3111B1C1A0A7F0023A890 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 79E310EA1C1A0A7C0023A890 /* Build configuration list for PBXProject "DeviceInfo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79E310E61C1A0A7C0023A890;
+			productRefGroup = 79E310F21C1A0A7C0023A890 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79E310EC1C1A0A7C0023A890 /* DeviceInfo */,
+				79E310F01C1A0A7C0023A890 /* DeviceInfoFormPlugin */,
+				79E311071C1A0A7E0023A890 /* DeviceInfoPerformPlugin */,
+				79E3111B1C1A0A7F0023A890 /* DeviceInfoViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79E310EF1C1A0A7C0023A890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E310F61C1A0A7C0023A890 /* DeviceInfoFormPlugin-Prefix.pch in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E311061C1A0A7E0023A890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E311191C1A0A7F0023A890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E311351C1A0A7F0023A890 /* Roboto-Bold.ttf in Resources */,
+				79E3113D1C1A0A800023A890 /* Roboto-LightItalic.ttf in Resources */,
+				79E3114D1C1A0A800023A890 /* RobotoCondensed-Italic.ttf in Resources */,
+				79E3114B1C1A0A800023A890 /* RobotoCondensed-BoldItalic.ttf in Resources */,
+				79E311411C1A0A800023A890 /* Roboto-MediumItalic.ttf in Resources */,
+				79E311391C1A0A7F0023A890 /* Roboto-Italic.ttf in Resources */,
+				79E3113B1C1A0A7F0023A890 /* Roboto-Light.ttf in Resources */,
+				79E311281C1A0A7F0023A890 /* DeviceInfoViewer-Prefix.pch in Resources */,
+				79E311371C1A0A7F0023A890 /* Roboto-BoldItalic.ttf in Resources */,
+				79E311331C1A0A7F0023A890 /* Roboto-BlackItalic.ttf in Resources */,
+				79E311451C1A0A800023A890 /* Roboto-Thin.ttf in Resources */,
+				79E311431C1A0A800023A890 /* Roboto-Regular.ttf in Resources */,
+				79E311511C1A0A800023A890 /* RobotoCondensed-LightItalic.ttf in Resources */,
+				79E3112A1C1A0A7F0023A890 /* Images.xcassets in Resources */,
+				79E311531C1A0A800023A890 /* RobotoCondensed-Regular.ttf in Resources */,
+				79E3115B1C1A0A800023A890 /* LaunchScreen.xib in Resources */,
+				79E3113F1C1A0A800023A890 /* Roboto-Medium.ttf in Resources */,
+				79E3114F1C1A0A800023A890 /* RobotoCondensed-Light.ttf in Resources */,
+				79E311471C1A0A800023A890 /* Roboto-ThinItalic.ttf in Resources */,
+				79E311491C1A0A800023A890 /* RobotoCondensed-Bold.ttf in Resources */,
+				79E311311C1A0A7F0023A890 /* Roboto-Black.ttf in Resources */,
+				79E3112C1C1A0A7F0023A890 /* Connect@2x.png in Resources */,
+				79E3112F1C1A0A7F0023A890 /* MaterialIcons-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		79E310EB1C1A0A7C0023A890 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "cd \"${BUILD_DIR}\"\n\n## Build all of the Xcode configurations.\n# Mac\nxcodebuild -project \"${PROJECT_DIR}/DeviceInfo.xcodeproj\" -scheme DeviceInfoFormPlugin -configuration Release BUILD_DIR=\"${BUILD_DIR}\"\n\n# iOS\nxcodebuild -project \"${PROJECT_DIR}/DeviceInfo.xcodeproj\" -scheme DeviceInfoPerformPlugin -configuration Release -sdk iphoneos BUILD_DIR=\"${BUILD_DIR}\"\nxcodebuild -project \"${PROJECT_DIR}/DeviceInfo.xcodeproj\" -scheme DeviceInfoPerformPlugin -configuration Release -sdk iphonesimulator BUILD_DIR=\"${BUILD_DIR}\"\n\n# Create the destination directory.\nDEST_DIR=./DeviceInfo\nrm -rf $DEST_DIR\nmkdir -p \"$DEST_DIR/DeviceInfo.formplugin\"\n\n# Copy the OSX build\ncp -fR \"./Release/DeviceInfoFormPlugin.formplugin/\" \"$DEST_DIR/DeviceInfo.formplugin/\"\n\n# Copy the iOS build\ncp -fR \"./Release-iphoneos/DeviceInfoPerformPlugin.framework\" \"$DEST_DIR/DeviceInfoPerformPlugin.framework\"\n\n# lipo the iOS build\nlipo -create \"${BUILD_DIR}/Release-iphonesimulator/DeviceInfoPerformPlugin.framework/DeviceInfoPerformPlugin\" \"${BUILD_DIR}/Release-iphoneos/DeviceInfoPerformPlugin.framework/DeviceInfoPerformPlugin\" -output \"$DEST_DIR/DeviceInfoPerformPlugin.framework/DeviceInfoPerformPlugin\"\n\n# Copy the iOS build into the OSX plugin for safe keeping\nmkdir -p \"$DEST_DIR/DeviceInfo.formplugin/Contents/Perform/\"\ncp -fR \"$DEST_DIR/DeviceInfoPerformPlugin.framework\" \"$DEST_DIR/DeviceInfo.formplugin/Contents/Perform/\"\n\n# Install plugin\nmkdir -p \"$HOME/Library/Application Support/Form/PlugIns/\"\ncp -fR \"$DEST_DIR/DeviceInfo.formplugin\" \"$HOME/Library/Application Support/Form/PlugIns/\"\n\n# Reveal the finished plugin if we're archiving\nif [ \"${CONFIGURATION}\" = \"Release\" ]; then\n    open --reveal $DEST_DIR\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79E310ED1C1A0A7C0023A890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E310FE1C1A0A7E0023A890 /* DeviceInfoPlugin.m in Sources */,
+				79E311011C1A0A7E0023A890 /* DeviceInfoNode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E311031C1A0A7E0023A890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E311151C1A0A7F0023A890 /* DeviceInfoPatch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E311171C1A0A7F0023A890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E311231C1A0A7F0023A890 /* AppDelegate.m in Sources */,
+				79E311261C1A0A7F0023A890 /* ConnectViewController.m in Sources */,
+				79E311201C1A0A7F0023A890 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		79E311591C1A0A800023A890 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79E3115A1C1A0A800023A890 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79E3115D1C1A0A800023A890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		79E3115E1C1A0A800023A890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		79E311601C1A0A800023A890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79E311611C1A0A800023A890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		79E311631C1A0A800023A890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GCC_PREFIX_HEADER = "DeviceInfoFormPlugin/DeviceInfoFormPlugin-Prefix.pch";
+				INFOPLIST_FILE = DeviceInfoFormPlugin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = justaddmusic.DeviceInfoFormPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = formplugin;
+			};
+			name = Debug;
+		};
+		79E311641C1A0A800023A890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GCC_PREFIX_HEADER = "DeviceInfoFormPlugin/DeviceInfoFormPlugin-Prefix.pch";
+				INFOPLIST_FILE = DeviceInfoFormPlugin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = justaddmusic.DeviceInfoFormPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = formplugin;
+			};
+			name = Release;
+		};
+		79E311661C1A0A800023A890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeviceInfoPerformPlugin/DeviceInfoPerformPlugin-Prefix.pch";
+				INFOPLIST_FILE = DeviceInfoPerformPlugin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = justaddmusic.DeviceInfoPerformPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79E311671C1A0A800023A890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeviceInfoPerformPlugin/DeviceInfoPerformPlugin-Prefix.pch";
+				INFOPLIST_FILE = DeviceInfoPerformPlugin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = justaddmusic.DeviceInfoPerformPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		79E311691C1A0A800023A890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeviceInfoViewer/DeviceInfoViewer-Prefix.pch";
+				INFOPLIST_FILE = DeviceInfoViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = justaddmusic.DeviceInfoViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79E3116A1C1A0A800023A890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeviceInfoViewer/DeviceInfoViewer-Prefix.pch";
+				INFOPLIST_FILE = DeviceInfoViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = justaddmusic.DeviceInfoViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79E310EA1C1A0A7C0023A890 /* Build configuration list for PBXProject "DeviceInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E3115D1C1A0A800023A890 /* Debug */,
+				79E3115E1C1A0A800023A890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E3115F1C1A0A800023A890 /* Build configuration list for PBXAggregateTarget "DeviceInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E311601C1A0A800023A890 /* Debug */,
+				79E311611C1A0A800023A890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79E311621C1A0A800023A890 /* Build configuration list for PBXNativeTarget "DeviceInfoFormPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E311631C1A0A800023A890 /* Debug */,
+				79E311641C1A0A800023A890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79E311651C1A0A800023A890 /* Build configuration list for PBXNativeTarget "DeviceInfoPerformPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E311661C1A0A800023A890 /* Debug */,
+				79E311671C1A0A800023A890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79E311681C1A0A800023A890 /* Build configuration list for PBXNativeTarget "DeviceInfoViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E311691C1A0A800023A890 /* Debug */,
+				79E3116A1C1A0A800023A890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79E310E71C1A0A7C0023A890 /* Project object */;
+}

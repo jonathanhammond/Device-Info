@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="LibraryStyle.css">
+    </head>
+    <body>
+        
+        <div class="patchTitle">Touch Interaction</div>
+        
+        <p>The Touch Interaction patch represents a touch inside of a view. The touch interaction can be canceled by a gesture on the view.</p>
+        
+        <hr>
+        
+        <label class="groupTitle">Outputs</label>
+        
+        <ul>
+            <li><div class="portTitle">Interaction</div>The interaction connection port used to link the interaction to a view.</li>
+            <li><div class="portTitle">Position</div>The current position of the touch. The position resets to 0 when the touch is no longer down. Note: This value is represented in the superview's coordinate space.</li>
+            <li><div class="portTitle">Down</div>A boolean value that represents whether the patch has recognized a touch.</li>
+        </ul>
+        
+    </body>
+</html>

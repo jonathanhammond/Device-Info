@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="LibraryStyle.css">
+    </head>
+    <body>
+        
+        <div class="patchTitle">Demultiplexer</div>
+        
+        <p>The Demultiplexer patch switches a single input between multiple outputs based on an index value.</p>
+        
+        <hr>
+        
+        <label class="groupTitle">Inputs</label>
+        
+        <ul>
+            <li><div class="portTitle">Index</div>The destination index.</li>
+            <li><div class="portTitle">Input</div>The value to be passed to the active destination.</li>
+            <li><div class="portTitle">Default</div>The value to pass to all other destinations.</li>
+        </ul>
+        
+        <label class="groupTitle">Outputs</label>
+        
+        <ul>
+            <li><div class="portTitle">Destination x</div>The input value or the default value depending on the destination index.</li>
+        </ul>
+        
+        <label class="groupTitle">Settings</label>
+        
+        <ul>
+            <li><div class="portTitle">Destinations</div>The number of destination outputs.</li>
+        </ul>
+        
+    </body>
+</html>

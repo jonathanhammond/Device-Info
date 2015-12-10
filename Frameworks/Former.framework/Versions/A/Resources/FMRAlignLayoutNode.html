@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="LibraryStyle.css">
+    </head>
+    <body>
+        
+        <div class="patchTitle">Align Layout</div>
+        
+        <p>The Align Layout patch makes it easy to position views relative to another view. You can use this patch to center views within their superview, or align an align a view along the edge of another view. In order for alignment to work properly, you must connect both the position and anchor point outputs to the view you wish to align.</p>
+        
+        <hr>
+        
+        <label class="groupTitle">Inputs</label>
+        <ul>
+            <li><div class="portTitle">Size</div>The width, height, and depth of the view you are aligning with.</li>
+            <li><div class="portTitle">X Align</div>Align the view to the left, center, or right with respect to the given size. You can also enter any value from 0-1.</li>
+            <li><div class="portTitle">Y Align</div>Align the view to the top, center, or bottom with respect to the given size. You can also enter any value from 0-1.</li>
+            <li><div class="portTitle">Z Align</div>Align the view to the front, center, or back with respect to the given size. You can also enter any value from 0-1.</li>
+        </ul>
+        
+        <label class="groupTitle">Outputs</label>
+        <ul>
+            <li><div class="portTitle">Position</div>The position of the aligned view.</li>
+            <li><div class="portTitle">Anchor</div>The anchor point of the aligned view.</li>
+        </ul>
+        
+    </body>
+</html>

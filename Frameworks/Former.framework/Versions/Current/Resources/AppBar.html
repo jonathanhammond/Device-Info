@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="LibraryStyle.css">
+    </head>
+    <body>
+        <div class="patchTitle">App Bar</div>
+        <p>The App Bar patch represents the Material Design <a href="http://www.google.com/design/spec/layout/structure.html#structure-app-bar">app bar</a>. It has the ability to toggle between the menu and back icons and display up to 3 custom icons on the right. Icons generally should be 28x28 dp in size, though they can be smaller in width. It currently only supports the light theme.</p>
+        <hr>
+        <label class="groupTitle">Inputs</label>
+        <ul>
+            <li><div class="portTitle">Background Color</div>The background color of the component.</li>
+            <li><div class="portTitle">Title</div>The title to display.</li>
+            <li><div class="portTitle">Nav Icon</div>The navigation icon on the left side of the bar.</li>
+            <li><div class="portTitle">Icon 0</div>The rightmost icon. Set this to nil if you do not want to display it.</li>
+            <li><div class="portTitle">Icon 1</div>The second rightmost icon. Set this to nil if you do not want to display it.</li>
+            <li><div class="portTitle">Icon 2</div>The third rightmost icon. Set this to nil if you do not want to display it.</li>
+        </ul>
+        <label class="groupTitle">Outputs</label>
+        <ul>
+            <li><div class="portTitle">Nav Icon Down</div>A boolean value that represents whether the nav icon has recognized a touch.</li>
+            <li><div class="portTitle">Icon 0 Down</div>A boolean value that represents whether icon 0 has recognized a touch.</li>
+            <li><div class="portTitle">Icon 1 Down</div>A boolean value that represents whether icon 1 has recognized a touch.</li>
+            <li><div class="portTitle">Icon 2 Down</div>A boolean value that represents whether icon 2 has recognized a touch.</li>
+        </ul>
+    </body>
+</html>

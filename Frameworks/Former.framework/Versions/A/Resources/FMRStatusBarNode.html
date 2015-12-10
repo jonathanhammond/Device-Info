@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="LibraryStyle.css">
+    </head>
+    <body>
+        
+        <div class="patchTitle">Status Bar</div>
+        
+        <p>The Status Bar patch controls how the status bar appears on your device. You can hide or show it, with or without an animation. You can also give it a dark or light style. Since there is only one status bar on the device, the hide/show and darken/lighten inputs are implemented as signals to avoid ambiguity with other instances of this patch.</p>
+        
+        <hr>
+        
+        <label class="groupTitle">Inputs</label>
+        
+        <ul>
+            <li><div class="portTitle">Hide</div>A signal that hides the status bar.</li>
+            <li><div class="portTitle">Show</div>A signal that shows the status bar.</li>
+            <li><div class="portTitle">Animation</div>The type of animation to use when hiding or showing the status bar. The choices are None, Fade, and Slide.</li>
+            <li><div class="portTitle">Darken</div>A signal that darkens the status bar.</li>
+            <li><div class="portTitle">Lighten</div>A signal that lightens the status bar.</li>
+            <li><div class="portTitle">Animate</div>Whether or not to animate when changing the status bar style.</li>
+        </ul>
+        
+        <label class="groupTitle">Outputs</label>
+        
+        <ul>
+            <li><div class="portTitle">Hidden</div>Outputs YES if the status bar is hidden.</li>
+            <li><div class="portTitle">Style</div>Outputs 0 if the dark style is set and 1 if the light style is set.</li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="LibraryStyle.css">
+    </head>
+    <body>
+        
+        <div class="patchTitle">Text Image</div>
+        
+        <p>The Text Image patch is used to create an image from a string of text for display.</p>
+
+        <p>The text style can be configured via the font, size, and color inputs. A size recommendation can be provided via the bounds width and height inputs.</p>
+        
+        <hr>
+        
+        <label class="groupTitle">Inputs</label>
+        
+        <ul>
+            <li><div class="portTitle">Text</div>The text to render.</li>
+            <li><div class="portTitle">Font</div>The name of the font to use. (Supports all fonts bundled with iOS.)</li>
+            <li><div class="portTitle">Size</div>The font size in points.</li>
+            <li><div class="portTitle">Color</div>The font color.</li>
+            <li><div class="portTitle">Bounds Width/Height</div>The bounding size to use when rendering text. Set either of these values to -1 to leave them unbounded.</li>
+        </ul>
+        
+        <label class="groupTitle">Outputs</label>
+        
+        <ul>
+            <li><div class="portTitle">Image</div>The image containing the rendered text.</li>
+            <li><div class="portTitle">Width/Height</div>The size of the rendered image. Note: This may not be equal to the bounds width/height.</li>
+        </ul>
+        
+    </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="LibraryStyle.css">
+    </head>
+    <body>
+        
+        <div class="patchTitle">Image Importer</div>
+        
+        <p>The Image Importer fetches image data from a URL and outputs an image.</p>
+        
+        <hr>
+        
+        <label class="groupTitle">Inputs</label>
+        
+        <ul>
+            <li><div class="portTitle">URL</div>The patch will fetch the image data from this URL.</li>
+            <li><div class="portTitle">Load</div>When triggered, this input will start the JSON request.</li>
+        </ul>
+        
+        <label class="groupTitle">Outputs</label>
+        
+        <ul>
+            <li><div class="portTitle">Size</div>The dimensions of the image that has been downloaded.</li>
+            <li><div class="portTitle">Image</div>The image that has been downloaded.</li>
+            <li><div class="portTitle">Error</div>If an error occurred during the request, it will be outputted here.</li>
+            <li><div class="portTitle">Done</div>When the request is complete, this value will be set to YES.</li>
+        </ul>
+
+        <label class="groupTitle">Settings</label>
+
+        <ul>
+            <li><div class="portTitle">Scale</div>Use this as scale for all imported images.</li>
+        </ul>
+    </body>
+</html>

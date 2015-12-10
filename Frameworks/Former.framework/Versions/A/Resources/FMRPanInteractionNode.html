@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="LibraryStyle.css">
+    </head>
+    <body>
+        
+        <div class="patchTitle">Pan Interaction</div>
+        
+        <p>The Pan Interaction patch represents a pan interaction on a view. The pan interaction can be canceled by a gesture on the view.</p>
+
+        <hr>
+    
+        <label class="groupTitle">Inputs</label>
+        
+        <ul>
+            <li><div class="portTitle">Reset</div>Resets the interaction.</li>
+            <li><div class="portTitle">Offset</div>An amount in points used to offset the X/Y Pan output.</li>
+        </ul>
+        
+        <label class="groupTitle">Outputs</label>
+        
+        <ul>
+            <li><div class="portTitle">Interaction</div>The interaction connection port used to link the interaction to a view.</li>
+            <li><div class="portTitle">Pan</div>The total amount of X/Y translation that has occurred. Note: This value is represented in the superview's coordinate space.</li>
+            <li><div class="portTitle">Delta</div>The amount of X/Y translation that occurred in the last frame.</li>
+            <li><div class="portTitle">Down</div>A boolean value that represents whether a touch is down on the screen.</li>
+        </ul>
+        
+    </body>
+</html>

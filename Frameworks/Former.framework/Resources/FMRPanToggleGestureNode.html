@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="LibraryStyle.css">
+    </head>
+    <body>
+        
+        <div class="patchTitle">Pan Toggle Gesture</div>
+        
+        <p>The Pan Toggle Gesture patch recognizes a pan gesture, and toggles between two states when the gesture finishes. Upon recognizing that a pan gesture has occurred, it will cancel all other interactions on the view or its subviews.</p>
+
+        <p>Pan Gestures are commonly used to recognize panning actions on top of views that already have interactions. (e.g. Recognizing when the user is trying to pan a tappable button.)</p>
+        
+        <hr>
+        
+        <label class="groupTitle">Inputs</label>
+        
+        <ul>
+            <li><div class="portTitle">State A: Position</div>The position to use for the first state.</li>
+            <li><div class="portTitle">State B: Position</div>The position to use for the second state.</li>
+            <li><div class="portTitle">Tap To Toggle</div>A boolean that indicates whether the patch should toggle between states when the view is tapped.</li>
+            <li><div class="portTitle">State A</div>An input that flips the gesture to the first state.</li>
+            <li><div class="portTitle">State B</div>An input that flips the gesture to the second state.</li>
+        </ul>
+        
+        <label class="groupTitle">Outputs</label>
+        
+        <ul>
+            <li><div class="portTitle">Gesture</div>The gesture connection port used to link the gesture to a view.</li>
+            <li><div class="portTitle">Position</div>The total amount of X/Y translation that has occurred. This will instantly snap to state A or B depending on the position and velocity when the gesture finishes.</li>
+            <li><div class="portTitle">A/B</div>A continuous number value between 0-1 that represents whether the patch is in state A or B.</li>
+            <li><div class="portTitle">Active</div>A boolean value that represents whether the patch has recognized a pan gesture.</li>
+        </ul>
+        
+    </body>
+</html>

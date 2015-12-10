@@ -1,0 +1,76 @@
+body {
+  /* Rectangle 1: */
+  background: #ECEFF1;
+  font-family: "AvenirNext-Regular", sans-serif;
+  color: #263238;
+  margin:0;
+  padding:0;
+}
+
+hr {
+  display: none;
+}
+
+p {
+  font-size: 11px;
+  background: #37474F;
+  color: #CFD8DC;
+  margin: 0;
+  padding: 0 10px 11px 10px;
+  margin: 0 0 10px 0;
+}
+
+p a {
+  color: #CFD8DC;
+  text-decoration: underline;
+}
+
+p:nth-of-type(2) {
+  margin: -10px 0 10px 0;
+}
+
+ul {
+    font-size: 11px;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    padding: 5px 10px 5px 10px;
+}
+
+li:last-of-type {
+  margin: 0 0 10px 0;
+}
+
+/* Name of patch */
+
+.patchTitle {
+  background: #37474F;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    margin:0 !important;
+    border:0 !important;
+    padding: 11px 10px 11px 10px;
+}
+
+.groupTitle {
+    color: #607D8B;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0 10px 0 10px;
+}
+
+/* Input and output port titles */
+
+.portTitle {
+    color: #2A8FBD;
+    display: block;
+    font-weight: 600;
+    padding: 2px 4px 2px 0px;
+    margin-right: 4px;
+}

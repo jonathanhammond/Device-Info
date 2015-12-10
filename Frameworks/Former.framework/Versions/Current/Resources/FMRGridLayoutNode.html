@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="LibraryStyle.css">
+    </head>
+    <body>
+        
+        <div class="patchTitle">Grid Layout</div>
+        
+        <p>The Grid Layout patch makes it easy to position views on a grid. It it designed to work within a Replicator patch. Depending on the 'Vertical' parameter, you can position views by row or column. The actual item width/height is calculated using the based on the total width/height, border, and spacing inputs.</p>
+        
+        <hr>
+        
+        <label class="groupTitle">Inputs</label>
+        <ul>
+            <li><div class="portTitle">Index</div>The index of the view in the grid. It is designed to be connected to the 'Index' output from Replicator Variables.</li>
+            <li><div class="portTitle">Total Width/Height</div>The total width/height of the grid, including items, border, and spacing. It is often connected to Superview Variables.</li>
+            <li><div class="portTitle">Columns/Rows</div>With a the 'Vertical' parameter checked, this input represents the number of views to display in each row before wrapping to the next row. With 'Vertical' unchecked, it represents the number of views to display in each column before wrapping to the next column.</li>
+            <li><div class="portTitle">Border</div>The size of the padding outside items on the grid.</li>
+            <li><div class="portTitle">Spacing</div>The size of the padding between items on the grid.</li>
+            <li><div class="portTitle">Item Width/Height</div>The width/height of each item. It is only used to compute the aspect ratio of the view. The actual item width/height is calculated using the based on the total width/height, border, and spacing input.</li>
+        </ul>
+        
+        <label class="groupTitle">Outputs</label>
+        <ul>
+            <li><div class="portTitle">X Position</div>The X position of the view at the given 'Index'. Connect this to the views's 'X Position' input.</li>
+            <li><div class="portTitle">Y Position</div>The Y position of the view at the given 'Index'. Connect this to the views's 'Y Position' input.</li>
+            <li><div class="portTitle">Item Width</div>The actual width of each item, given the desired border and spacing. Connect this to the view's 'Width' input.'</li>
+            <li><div class="portTitle">Item Height</div>The actual height of each item, given the desired border and spacing. Connect this to the view's 'Height' input.</li>
+        </ul>
+        
+        <label class="groupTitle">Parameters</label>
+        <ul>
+            <li><div class="portTitle">Vertical</div>If chekced, layout views in rows, otherwise layout views in columns.</li>
+        </ul>
+        
+    </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="LibraryStyle.css">
+    </head>
+    <body>
+        
+        <div class="patchTitle">Pinch Gesture</div>
+        
+        <p>The Pinch Gesture patch recognizes a two finger pinch gesture on a view. Upon recognizing that a pinch gesture has occurred, it will cancel out all other interactions on the view or its subviews.</p>
+
+        <p>Pinch gestures are commonly used to scale a view, and will retain the scale value after the gesture is complete.</p>
+        
+        <hr>
+        
+        <label class="groupTitle">Inputs</label>
+        
+        <ul>
+            <li><div class="portTitle">Reset</div>Resets the gesture.</li>
+            <li><div class="portTitle">Scale</div>The initial scale.</li>
+        </ul>
+        
+        <label class="groupTitle">Outputs</label>
+        
+        <ul>
+            <li><div class="portTitle">Gesture</div>The gesture connection port used to link the gesture to a view.</li>
+            <li><div class="portTitle">Scale</div>The current scale of the pinch gesture.</li>
+            <li><div class="portTitle">Active</div>A boolean value that represents whether the patch has recognized a pinch gesture.</li>
+        </ul>
+        
+    </body>
+</html>

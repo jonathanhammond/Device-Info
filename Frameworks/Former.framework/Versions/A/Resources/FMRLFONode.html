@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="LibraryStyle.css">
+    </head>
+    <body>
+        
+        <div class="patchTitle">LFO</div>
+        
+        <p>The LFO patch simulates a low frequency oscillator. It is commonly used for animations and other effects.</p>
+        
+        <hr>
+        
+        <label class="groupTitle">Supported wave types</label>
+        
+        <ul>
+            <li>Sine</li>
+            <li>Cosine</li>
+            <li>Square</li>
+        </ul>
+        
+        <label class="groupTitle">Inputs</label>
+        
+        <ul>
+            <li><div class="portTitle">Wave</div>The wave type to use for the oscillator.</li>
+            <li><div class="portTitle">Period</div>The amount of time in seconds for the LFO to complete one cycle.</li>
+            <li><div class="portTitle">Phase</div>A normalized value ranging between 0 - 1 that represents a fraction of the period.</li>
+            <li><div class="portTitle">Amplitude</div>The amplitude of the wave.</li>
+            <li><div class="portTitle">Offset</div>A number used to displace the wave output value.</li>
+        </ul>
+        
+        <label class="groupTitle">Outputs</label>
+        
+        <ul>
+            <li><div class="portTitle">Value</div>The current output value of the LFO.</li>
+        </ul>
+        
+    </body>
+</html>

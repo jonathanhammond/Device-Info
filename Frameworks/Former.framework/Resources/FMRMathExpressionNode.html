@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="LibraryStyle.css">
+    </head>
+    <body>
+        
+        <div class="patchTitle">Math Expression</div>
+        
+        <p>The Math Expression patch evaluates a mathematical expression. It supports variables, all of which need to be preceded by a $ (e.g. $a + $b + $c). The patch works with all the built-in operators and functions from DDMathParser and can also represent constants.</p>
+        
+        <hr>
+        
+        <label class="groupTitle">Operators</label>
+        
+        <ul>
+            <li><div class="portTitle">Standard</div>+, -, * , /, %, !, **(exponentiation)</li>
+            <li><div class="portTitle">Bitwise</div>&amp;, |, ^, &lt;&lt;, &gt;&gt;, ~</li>
+            <li><div class="portTitle">Comparison</div>==, !=, &lt;, &gt;, =&lt;, &gt;=</li>
+            <li><div class="portTitle">Logical</div>&amp;&amp;, ||, !</li>
+        </ul>
+        
+        <label class="groupTitle">Functions</label>
+        
+        <ul>
+            <li><div class="portTitle">dtor()</div>Degrees to Radians</li>
+            <li><div class="portTitle">rtod()</div>Radians to Degrees</li>
+            <li><div class="portTitle">sqrt(x), log(x), ln(x), log2(x)</div></li>
+            <li><div class="portTitle">exp(x), ceil(x), floor(x)</div></li>
+            <li><div class="portTitle">random(x, y)</div>- Random value between x and y</li>
+            <li><div class="portTitle">sum(...), count(...), min(...), max(...), median(...)</div></li>
+            <li><div class="portTitle">stddev(...), average(...)</div></li>
+            <li><div class="portTitle">sin(x), cos(x), tan(x), asin(x), acos(x), atan(x)</div></li>
+            <li><div class="portTitle">csc(x), sec(x), cotan(x), acsc(x), sec(x), acotan(x)</div></li>
+            <li><div class="portTitle">pi(), pi2(), pi4(), phi(), sqrt2()</div></li>
+            <li><div class="portTitle">e(), log2e(), log10e(), ln2(), ln10()</div></li>
+        </ul>
+        
+        <label class="groupTitle">Settings</label>
+        
+        <ul>
+            <li><div class="portTitle">Expression</div>The equation to evaluate.</li>
+        </ul>
+        
+    </body>
+</html>

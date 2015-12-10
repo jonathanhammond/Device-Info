@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="LibraryStyle.css">
+    </head>
+    <body>
+        
+        <div class="patchTitle">Device Location</div>
+        
+        <p>The Device Location patch outputs the device's GPS coordinates.</p>
+        
+        <hr>
+        
+        <label class="groupTitle">Inputs</label>
+        
+        <ul>
+            <li><div class="portTitle">Locate</div>Trigger this signal input to start outputting location data.</li>
+            <li><div class="portTitle">Accuracy</div>Location data is collected within a given distance range. This input controls how accurate you wish the location data to be. Any number (in meters) can be used.</li>
+        </ul>
+        
+        <label class="groupTitle">Outputs</label>
+        
+        <ul>
+            <li><div class="portTitle">Latitude</div>The latitude in degrees. The northern hemisphere uses positive values, while the southern hemisphere has negative ones.</li>
+            <li><div class="portTitle">Longitude</div>The longitude in degrees. East of the prime meridian has positive values, and west of the prime merdian has negative ones.</li>
+            <li><div class="portTitle">Locked</div>This value is YES if the patch is collecting data.</li>
+        </ul>
+
+    </body>
+</html>
