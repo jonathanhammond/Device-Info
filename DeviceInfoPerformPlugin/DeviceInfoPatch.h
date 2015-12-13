@@ -7,6 +7,8 @@
 //
 
 #import <Performer/Performer.h>
+#include <ifaddrs.h>
+#include <arpa/inet.h>
 
 @interface DeviceInfoPatch : PMRPatch
 
@@ -15,5 +17,6 @@
 @property (nonatomic, readonly) PMRPrimitiveOutputPort *systemVersion;
 @property (nonatomic, readonly) PMRPrimitiveOutputPort *model;
 @property (nonatomic, readonly) PMRPrimitiveOutputPort *batteryLevel;
+@property (nonatomic, readonly) PMRPrimitiveOutputPort *hostIP;
 
 @end

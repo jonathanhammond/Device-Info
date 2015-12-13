@@ -28,6 +28,7 @@
         [self addPort:[[FMRPrimitiveOutputPort alloc] initWithName:@"System Version" uniqueKey:@"Form.systemVersion"] portGroup:nil];
         [self addPort:[[FMRPrimitiveOutputPort alloc] initWithName:@"Model" uniqueKey:@"Form.model"] portGroup:nil];
         [self addPort:[[FMRPrimitiveOutputPort alloc] initWithName:@"Battery Level" uniqueKey:@"Form.batteryLevel"] portGroup:nil];
+                [self addPort:[[FMRPrimitiveOutputPort alloc] initWithName:@"Host IP" uniqueKey:@"Form.hostIP"] portGroup:nil];
     }
     return self;
 }
